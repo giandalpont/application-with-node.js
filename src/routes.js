@@ -1,9 +1,9 @@
-const { Router } = require('express')
+import { Router } from 'express'
 
 const router = new Router()
 
 router.get('/', (req, ras) => {
-    return ras.json({ hello: 'Hello world' })
+    return ras.json({ hello: 'Hello Gia' })
 })
 
-module.exports = router
+export default router
